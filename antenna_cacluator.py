@@ -9,7 +9,7 @@ def antenna_calculator(frequency):
     wave_length_feet = wave_length_meters / 0.3048
 
     quarter_wave_length_meters = wave_length_meters * 0.25
-    quarter_wave_length_feet = wave_length_meters / 0.3048
+    quarter_wave_length_feet = quarter_wave_length_meters / 0.3048
 
     dipole_element_meters = wave_length_meters / 2
     dipole_element_feet = dipole_element_meters / 0.3048
@@ -27,5 +27,5 @@ def antenna_calculator(frequency):
     print ('dipole element length in feet: %s' % dipole_element_feet)
 
 if __name__ == '__main__':
-    frequency = float('915.00')
+    frequency = float('145.00')
     antenna_calculator(frequency)
