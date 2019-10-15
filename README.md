@@ -9,4 +9,4 @@ A simple calculator that given a frequency, will provide the numbers needed to c
 
  Usage:
  
-`python antenna-calculator.py --frequency 7.185`
+`python antenna-calculator.py 7.185`
